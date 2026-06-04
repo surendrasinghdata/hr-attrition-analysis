@@ -44,6 +44,31 @@ and provides actionable recommendations to HR leadership.
 6. **Low job satisfaction doubles attrition**
    Low satisfaction: 22.84% attrition
    High satisfaction: 11.33% attrition
+---
+
+## Combined Risk Score Analysis
+
+Each employee scored on 3 combined risk factors:
+- Overtime Yes = 1 point
+- Salary below median = 1 point  
+- Frequent Travel = 1 point
+
+| Risk Score | Employees | Left | Attrition Rate |
+|---|---|---|---|
+| 0 - No risk factors | 429 | 26 | 6.06% |
+| 1 - One risk factor | 700 | 95 | 13.57% |
+| 2 - Two risk factors | 295 | 87 | 29.49% |
+| 3 - All three factors | 46 | 29 | 63.04% |
+
+**Most critical finding:**
+Sales Representatives with all 3 risk factors
+had 100% attrition. All 7 employees left.
+
+Every additional risk factor roughly doubles
+attrition rate. HR should prioritize employees
+with risk score 2 or 3 for immediate retention action.
+
+![Risk Score Analysis](output/chart6_risk_score_analysis.png)
 
 ---
 
@@ -73,6 +98,7 @@ and provides actionable recommendations to HR leadership.
 ![Income Distribution](output/chart3_income_distribution.png)
 ![Travel Attrition](output/chart4_travel_attrition.png)
 ![Satisfaction Attrition](output/chart5_satisfaction_attrition.png)
+![Risk Score Analysis](output/chart6_risk_score_analysis.png)
 
 ---
 
